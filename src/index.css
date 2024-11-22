@@ -1,0 +1,119 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Menu Builder Container */
+.menu-builder-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Tree Container */
+.rc-tree {
+  margin-top: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Tree Node Styling */
+.rc-tree-node {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rc-tree-node:hover {
+  background-color: #e0f7fa;
+}
+
+.rc-tree-node span {
+  font-weight: bold;
+}
+
+/* Button Styling */
+button {
+  
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.add{
+  background-color: #0056b3;
+  color: black;
+}
+.add:hover{
+  background-color: #1ec2eb;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+/* Add New Category / Subcategory Section */
+.add-node-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-node-buttons button {
+  width: 45%;
+}
+
+/* Multi-Delete Section */
+.multi-delete-section {
+  margin-top: 10px;
+}
+
+.multi-delete-section button {
+  width: 100%;
+  background-color: #dc3545;
+}
+
+.multi-delete-section button:hover {
+  background-color: #c82333;
+}
+
+/* Edit/Delete Button Positioning */
+.rc-tree-node button {
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+/* Modal (Prompt Style) for Adding Node */
+.prompt-input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
